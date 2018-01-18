@@ -35,7 +35,7 @@ popup markers.</p>
 <br>
 <h4>Statewide Traffic</h4>
 <p><code>statewidetraffic.py</code> ingests the same county census dataset, merges it with both the county shapefile layer,
-and traffic data as collected by TXDOT. Produces a graduated color map that yields a graduated color map weighted total traffic
+and traffic data as collected by TXDOT. Produces a graduated color map that yields a graduated color map weighted by total traffic
 count, normalized by population per capita in each county. The details can be viewed by clicking on the popup marker placed in 
 the centroid of each county.<p>
 <br>

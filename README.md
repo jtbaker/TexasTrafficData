@@ -20,7 +20,6 @@ color map, based on the number of points within each tract.
 <br>
 <p>This map can be viewed at <a href='http://jtbaker.me/austinfatalities.html'>http://jtbaker.me/austinfatalities.html</a></p>
 <br>
-<br>
 
 <h4>DPS Regions</h4>
 
@@ -33,8 +32,7 @@ popup markers.</p>
 <br>
 <p>This map can be viewed at <a href='http://jtbaker.me/DPSRegions.html'>http://jtbaker.me/DPSRegions.html</a></p>
 <br>
-<br>
-<h4>DPS Regions</h4>
+<h4>Statewide Traffic</h4>
 <p><code>statewidetraffic.py</code> ingests the same county census dataset, merges it with both the county shapefile layer,
 and traffic data as collected by TXDOT. Produces a graduated color map that yields a graduated color map weighted total traffic
 count, normalized by population per capita in each county. The details can be viewed by clicking on the popup marker placed in 

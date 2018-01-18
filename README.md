@@ -12,7 +12,7 @@ relating to auto usage and statistics in Texas. </p>
 in the City of Austin's jurisdiction (as reported by APD). It has several toggleable layers based on some of 
 the classifcations in the dataset (Daytime/Nighttime, if Seatbelts were not worn, if the driver ran a red light, etc.
 Information about the incident can be viewed by clicking on the marker denoting its location, which will yield a popup
-with details on the incident (date, time of day, charges (if they were filed as part of the incident)).
+with details on the incident (date, time of day, charges (if they were filed as part of the incident)).</p>
 
 <p>It also performs a spatial join on the number of incidents within each census tract in the area, and produces a graduated
 color map, based on the number of points within each tract.

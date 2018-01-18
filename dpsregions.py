@@ -39,7 +39,7 @@ counties = gpd.read_file('tl_2011_us_county/tl_2011_us_county.shp')
 counties = counties.loc[counties['STATEFP']=='48']
 counties['NAME'] = counties['NAME'].str.upper()
 
-# More cleaning(spelling ;-) and syntax.
+# More cleaning ( spelling ;-) ) and syntax.
 dps_regions_list = gpd.GeoDataFrame(dps_regions_list, columns=['DPSRegion', 'NAME'])
 dps_regions_list['NAME'].loc[dps_regions_list['NAME'] == 'Shackleford'] = 'Shackelford'
 dps_regions_list['NAME'].loc[dps_regions_list['NAME'] == 'LaSalle'] = 'La Salle'

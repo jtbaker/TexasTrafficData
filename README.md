@@ -1,8 +1,9 @@
-<h3>Texas Traffic Data</h3>
+<h2>Texas Traffic Data</h2>
 <br>
 
 <p>This repository contains a series of useful scripts to automate the generation of maps for a range of datasets 
-relating to auto usage and statistics in Texas. </p>
+relating to auto usage and statistics in Texas. The code is annotated with comments at each step to make clear what
+is happening, and some of the logic behind it.</p>
 
 <br>
 

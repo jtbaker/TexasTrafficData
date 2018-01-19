@@ -1,0 +1,94 @@
+TYPE,FATAL CRASH #,# of Fatalities,CASE NUMBER,LOCATION,AREA,Date,Month,Day,Hour,Time,Related,charge,Killed: driver/pass,Speeding,Ran Red Light,DL Status,IMPAIRED TYPE,restraint / helmet,TYPE OF ROAD,FTSRA,X COORD,Y COORD
+Motor Vehicle,1,1,15-0061199,600 Blk E Koenig Lane,ID,01/06/2015,Jan,Tues,17,5:15 PM,MV/MV,DOO,driver,Y,N,ok,DRIVER,no seatbelt,High-use roadway,no,-97.715944,30.32067
+Pedestrian,2,1,15-71386,12900 Blk N IH35 SB,ED,01/07/2015,Jan,Wed,18,6:36 PM,MV/Ped,DOO,ped,N,N,ok,none,n/a,IH35,No,-97.673245,30.385484
+Pedestrian,3,1,15-100275,7400 Blk E US Hwy 290 EB,ID,01/10/2015,Jan,Sat,3,3:10 AM,MV/Ped,DOO,ped,N,N,unk (FTSRA),PED,n/a,Other highway,Yes,-97.67851,30.323619
+Motorcycle,4,1,15-131517,4700 Blk E Riverside Dr,HE,01/13/2015,Jan,Tues,21,9:30 PM,MV/MC,FTYROW to MC,motorcyclist,N,N,no motorcycle license,none,helmet,High-use roadway,No,-97.718725,30.232049
+Motor Vehicle,5,1,15-150104,Berkman Dr/Cloverleaf Dr,ID,01/15/2015,Jan,Thu,1,1:41 AM,MV/MV,ciminally neg homicide,driver other car,Y,N,ok,DRIVER,seatbelt worn,Local Street,No,-97.695498,30.309187
+Pedestrian,6,1,15-181372,8400 S. Congress Ave,FR,01/18/2015,Jan,Sun,19,7:37 PM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,High-use roadway,no,-97.784913,30.174156
+Motor Vehicle,7,1,15-181537,2900 N. Lamar,BA,01/18/2015,Jan,Sun,21,9:23 PM,MV/ROR,DOO,driver,Y,N,ok,DRIVER,seatbelt worn,High-use roadway,no,-97.748399,30.298288
+Pedestrian,8,1,15-0201458,1030 Norwood Park Blvd,ID,01/20/2015,Jan,Tues,18,6:36 PM,MV/Ped,DOO,ped,N,N,ok,none,n/a,Local Street,no,-97.692509,30.338413
+Motor Vehicle,9,1,15-240366,7300 Blk Burleson Rd,HE,01/24/2015,Jan,Sat,4,4:17 AM,MV/MV,DOO,driver,N,N,ok,DRIVER,seatbelt worn,High-use roadway,no,-97.701386,30.194606
+Motor Vehicle,10,1,15-271694,8100 Blk Research Blvd,ID,01/27/2015,Jan,Tues,21,9:42 PM,MV/FO,No Charge,driver,N,N,ok,none,unknown,Other highway,no,-97.713545,30.351126
+Motor Vehicle,11,1,15-0090206,12600 Blk N IH35 SB Svrd,ED,01/09/2015,Jan,Fri,2,2:58 AM,MV/FO,DOO,driver,Y,N,ok,DRIVER,unknown,IH35,no,-97.6745,30.409123
+Pedestrian,12,1,15-0420153,9700 Blk Lamar,ED,02/11/2015,Feb,Wed,2,2:46 AM,MV/Ped,FTYROW to ped,ped,N,N,ok,none,n/a,High-use roadway,No,-97.694587,30.36736
+Motor Vehicle,13,1,15-0430844,1700 Blk S. Capital of Texas Hwy (Loop 360),DA,02/12/2015,Feb,Thu,12,12:23 PM,MV/MV,DOO,driver,N,N,ok,none,seatbelt worn,Other highway,No,-97.817727,30.271634
+Motor Vehicle,14,1,15-0460146,5800 Blk of Loyola Ln,CH,02/15/2015,Feb,Sun,1,1:06 AM,MV/FO,DOO,driver,Y,N,no DL,DRIVER,no seatbelt,Local Street,No,-97.657145,30.303036
+Motor Vehicle,15,1,15-0530465,2100  W Parmer Ln,AD,02/22/2015,Feb,Sun,6,6:13 AM,MV/MV,FTSRA,driver other car,N,N,ok,none,seatbelt worn,High-use roadway,Yes,-97.695888,30.415821
+Motor Vehicle,16,1,15-540076,7100 Blk N IH 35 frontage,ID,02/23/2015,Feb,Mon,1,1:17 AM,MV/FO,DOO,driver,N,N,suspended,DRIVER,no seatbelt,IH35,No,-97.703825,30.332368
+Pedestrian,17,1,15-0740445,2200 Block E Anderson LN SVRD WB,ID,03/15/2015,Mar,Sun,3,3:27 AM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,Other highway,no,-97.677277,30.328779
+Motor Vehicle,18,1,15-0770231,4500 Block N Lamar,BA,03/18/2015,Mar,Wed,2,2:23 AM,MV/FO,DOO,driver,Y,N,ok,DRIVER,unknown,High-use roadway,no,-97.737571,30.313464
+Pedestrian,19,1,15-0782196,1600 Blk E Hwy 71 WB,HE,03/19/2015,Mar,Thu,22,10:29 PM,MV/Ped,DOO/FTSRA,ped,N,N,unk (FTSRA),NONE,n/a,Other highway,yes,-97.671929,30.22016
+Motorcycle,20,1,15-0821128,W Slaughter Ln/Palace Parkway,FR,03/23/2015,Mar,Mon,3,3:17 AM,MV/MC,FTYROW to MC,motorcyclist,Y,N,no motorcycle license,MC DRIVER,no helmet,High-use roadway,no,-97.805879,30.174032
+Motor Vehicle,21,1,15-0821761,9230 FM 2222 ,AD,03/23/2015,Mar,Mon,21,9:03 PM,MV/MV,DOO,driver,suspected,N,suspended,DRIVER,no seatbelt,High-use roadway,no,-97.823769,30.38731
+Motor Vehicle,22,1,15-0870426,3700 N Mopac Expy NB,BA,03/28/2015,Mar,Sat,4,4:12 AM,MV/FO,DOO,driver,N,N,ok,DRIVER,no seatbelt,Other highway,no,-97.756048,30.317719
+Motorcycle,23,1,15-0871475,5300 Ed Bluestein Blvd,CH,03/28/2015,Mar,Sat,18,6:07 PM,MV/MC,DOO,motorcyclist,Y,N,ok,none,helmet,Other highway,no,-97.663628,30.291885
+Motorcycle,24,1,15-0880163,14106 N IH35 SVRD SB,ED,03/29/2015,Mar,Sun,1,1:15 AM,MV/MC,DOO,motorcyclist,Y,N,ok,MC DRIVER,helmet,IH35,no,-97.670686,30.430611
+Motorcycle,25,1,15-0890331,FM 2222/Vaught Ranch Rd,AD,03/30/2015,Mar,Mon,6,6:50 AM,MV/MC,FTYROW to MC,motorcyclist,N,N,ok,none,helmet,High-use roadway,no,-97.80491,30.375732
+Motor Vehicle,26,1,15-0861726,800 Blk W Slaughter Ln,FR,03/27/2015,Mar,Fri,20,8:24 PM,MV/FO,DOO,driver,N,N,ok,none,seatbelt worn,High-use roadway,no,-97.80619,30.173966
+Motor Vehicle,54,1,15-1841034,Tillery/Govalle,CH,07/03/2015,Jul,Fri,13,1:42 PM,MV/MV,Class C - Ran Stop Sign,driver other car,N,N,ok,none,seatbelt worn,Local Street,no,-97.702194,30.265992
+Motor Vehicle,27,1,15-1021773,Burnet Rd/Gracy Farms ,AD,04/12/2015,Apr,Sun,20,10:31 AM,MV/MV,Intoxication Manslaughter,driver other car,Y,Y,okay (but suspended previously 24 times),DRIVER,seatbelt worn,High-use roadway,no,-97.71428,30.407375
+Pedestrian,28,2,15-1120238,5200 blk Burleson Rd,FR,04/22/2015,Apr,Wed,6,6:00 AM,MV/Ped,DOO,ped,N,N,ok,both PEDs ,n/a,High-use roadway,no,-97.72692,30.210462
+Motorcycle,29,1,15-1121615,10500 blk Lakeline Blvd,AD,04/22/2015,Apr,Wed,20,8:52 PM,MV/MC,DOO,motorcyclist,Y,N,no motorcycle license,none,helmet,High-use roadway,no,-97.789573,30.481956
+Pedestrian,30,1,15-1160279,2100 blk S US Hwy 183 SB,HE,04/26/2015,Apr,Sun,2,2:26 AM,MV/Ped,DOO,ped,N,N,unk (FTSRA),PED,n/a,Other highway,Yes,-97.683292,30.217685
+Motorcycle,31,1,15-1190387,400 blk No Mopac NB,BA,04/29/2015,Apr,Wed,8,8:34 AM,MC/FO,DOO,motorcyclist,Y,N,no motorcycle license,MC DRIVER,helmet,Other highway,no,-97.77009,30.275775
+Pedestrian,32,1,15-1240014,3900 Blk S. Congress,DA,05/04/2015,May,Mon,12,12:04 PM,MV/Ped,DOO,ped,N,N,suspended,none,n/a,High-use roadway,no,-97.763421,30.223733
+Motor Vehicle,33,2,15-1300319,1386 Blk E. Parmer Lane,ED,05/10/2015,May,Sun,3,3:24 AM,MV/MV,AGG ASSAULT W/ MOTOR VEHICLE,2 passengers,N,N,no DL (from Guatemala),DRIVER,no seatbelt/ 1 worn,High-use roadway,no,-97.65258,30.391028
+Pedestrian,34,1,15-1351769,8960 blk Research Blvd NB Svrd,ID,05/15/2015,May,Fri,21,9:47 PM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,Other highway,no,-97.722274,30.371675
+Motorcycle,35,1,15-1360124,3500 blk S. Lamar NB,DA,05/16/2015,May,Sat,1,1:08 AM,MV/MC,Intoxication Manslaughter,motorcyclist,N,N,no motorcycle license,DRIVER of MV and MC,helmet,High-use roadway,no,-97.78766,30.239787
+Pedestrian,36,1,15-1420193,600 E Riverside Dr,HE,05/22/2015,May,Fri,2,2:23 AM,MV/Ped,DOO,ped,N,N,ok,PED and DRIVER,n/a,High-use roadway,no,-97.741494,30.252034
+Motor Vehicle,37,1,15-1210550,300 blk Airport Blvd,CH,05/01/2015,May,Fri,9,9:17 AM,MV/MV,Class C - Impeding Traffic,driver other car,N,N,ok,none,unknown,High-use roadway,no,-97.691335,30.249889
+Motor Vehicle,38,1,15-1450562,Parmer Ln/Lamar Blvd,ED,05/25/2015,May,Mon,9,9:04 AM,MV/MV,ciminally neg homicide,driver other car,Y,Y,ok,none,seatbelt worn,High-use roadway,no,-97.678176,30.407802
+Motor Vehicle,39,1,15-1471857,Cooper Ln/Wm Cannon Dr,FR,05/27/2015,May,Wed,21,9:30 PM,MV/MV,Class C - FTYROW,driver,Y,N,suspended,none,seatbelt worn,Local Street,no,-97.791119,30.198508
+Pedestrian,41,1,15-1520572,300 Blk South First St,DA,06/01/2015,Jun,Mon,9,9:55 AM,MV/Ped/FO,None (true accident),ped,N,N,ok,NONE,n/a,Local Street,no,-97.749276,30.259758
+Motor Vehicle,42,1,15-1521872,1900 Blk Manana St,BA,06/01/2015,Jun,Mon,22,10:07 PM,MV/FO,Intoxication Manslaughter,passenger,Y,N,ok,DRIVER,no seatbelt,Local Street,no,-97.832534,30.326339
+Bicycle,43,1,15-1571536,5600 Johnny Morris Rd,CH,06/06/2015,Jun,Sat,18,6:34 PM,MV/Bike,No Charge,bicyclist,N,N,ok,none,no helmet,Local Street,no,-97.652402,30.293725
+Pedestrian,44,1,15-1572016,900 E Koenig Ln,ID,06/06/2015,Jun,Sat,23,11:00 PM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,High-use roadway,no,-97.711045,30.321464
+Motorcycle,45,1,15-1591125,5200 West Gate Blvd,DA,06/08/2015,Jun,Mon,15,3:24 PM,MV/MC,DOO,motorcyclist,N,N,no motorcycle license,DRIVER,helmet,Local Street,no,-97.804447,30.224703
+Pedestrian,46,1,15-1651735,5900 S. IH-35 NB,FR,06/14/2015,Jun,Sun,22,10:49 PM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,IH35,no,-97.764739,30.197422
+Motor Vehicle,47,1,15-1700080,1900 W Ben White Blvd WB,DA,06/19/2015,Jun,Fri,0,12:56 AM,MV/MV,DOO,driver,N,N,ok,DRIVER,seatbelt worn,Other highway,no,-97.787125,30.229558
+Motor Vehicle,48,1,15-1790220,4900 Block Ed Bluestein Blvd SB,CH,06/28/2015,Jun,Sun,1,1:51 AM,MV/MV,Intoxication Manslaughter,driver other car,N,N,no license,DRIVER,seatbelt worn,Other highway,no,-97.664757,30.288454
+Motor Vehicle,49,1,15-1831489,938 E Koenig Ln,ID,07/02/2015,Jul,Thu,18,6:13 PM,MV/MV,Manslaughter,driver other car,N,N,no license,unknown,seatbelt worn,High-use roadway,no,-97.70732,30.322081
+Pedestrian,50,1,15-1891775,S. Congress/Cumberland Rd,DA,07/08/2015,Jul,Wed,21,9:55 PM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,High-use roadway,no,-97.756365,30.235508
+Pedestrian,51,1,15-1920174,1000 Blk E Anderson Ln SVRD EB,ID,07/11/2015,Jul,Sat,1,1:21 AM,MV/Ped,DOO,ped,N,N,unk (FTSRA),none,n/a,Other highway,yes,-97.695696,30.336382
+Pedestrian,52,1,15-1920358,1200 E 11th Street,CH,07/11/2015,Jul,Sat,3,3:14 AM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,Local Street,no,-97.727401,30.268499
+Motor Vehicle,53,1,15-1921496,10800 S IH35 SVRD NB,FR,07/11/2015,Jul,Sat,19,7:09 PM,MV/FO,Intoxication Manslaughter,passenger,Y,N,no license,DRIVER,seatbelt worn,IH35,no,-97.79421,30.144131
+Pedestrian,55,1,15-1942043,E US 290 Hwy SVRD,CH,07/14/2015,Jul,Mon,23,11:01 PM,18 Wheeler/Ped,DOO,ped,N,N,ok,PED,n/a,Other highway,no,-97.671486,30.326066
+Pedestrian,56,1,15-1970159,6400 Blk Ed Bluestein Blvd SB,CH,07/16/2015,Jul,Thu,2,2:23 AM,MV/Ped,DOO/FTSRA,ped,unk,N,unk (FTSRA),PED,n/a,Other highway,yes,-97.660994,30.302634
+Motor Vehicle,57,1,15-1961576,9100 Blk of 2222,AD,07/15/2015,Jul,Wed,20,8:07 PM,MV/MV,Class C - FTMACD,driver other car,unk,N,ok,none,seatbelt worn,High-use roadway,no,-97.820667,30.385117
+Motor Vehicle,58,3,15-2050108,8500 N IH35 NB,ED,07/24/2015,Jul,Fri,1,1:13 AM,MV/18 Wheeler,No Charge,3 passengers,N,N,ok,none,seatbelt worn,IH35,no,-97.694321,30.348091
+Motor Vehicle,59,1,15-2110058,10700 Manchaca Rd,FR,07/30/2015,Jul,Wed,0,12:42 AM,MV/MV,DOO,driver,Y,N,ok,DRIVER,seatbelt worn,High-use roadway,no,-97.831644,30.163553
+Motor Vehicle,60,1,15-2120938,9700 Blk Manchaca Rd,FR,07/31/2015,Jul,Fri,12,12:23 PM,MV/MV,No Charge,driver other car,Y,N,ok,none,seatbelt worn,High-use roadway,no,-97.823807,30.173724
+Pedestrian,61,1,15-2081746,6600 Blk S. Congress,FR,07/27/2015,Jul,Mon,21,9:19 PM,MV/Ped,DOO,ped,N,N,ok,none,n/a,High-use roadway,no,-97.778258,30.194397
+Motorcycle,62,1,15-2210159,400 Congress ,GE,08/09/2015,Aug,Sun,1,1:30 AM,MV/MC,Intoxication Manslaughter,motorcyclist,N,N,no DL,DRIVER,helmet,High-use roadway,no,-97.743496,30.266209
+Motor Vehicle,63,1,15-2220464,3400 Blk W Slaughter Ln,FR,08/10/2015,Aug,Mon,8,8:49 AM,MV/Garbage truck,Class C - FTYROW,passenger,N,N,ok,none,no seatbelt,High-use roadway,no,-97.847401,30.182463
+Motorcycle,64,1,15-2281258,Red River/E 15th,BA,08/16/2015,Aug,Sun,18,6:01 PM,MV/MC,FTYROW to MC,motorcycle passenger,N,N,ok,NONE,no helmet,Local Street,no,-97.734873,30.275603
+Motor Vehicle,65,2,15-2310184,4500 N IH35 SB,BA,08/19/2015,Aug,Wed,2,2:36 AM,MV/MV,Intoxication Manslaughter,Passenger and driver other,N,N,ok,DRIVER,no seatbelt/ 1 worn,IH35,no,-97.71529,30.301973
+Motor Vehicle,66,2,15-2320928,US Hwy 183/Burleson Rd,HE,08/20/2015,Aug,Thu,12,12:34 PM,MV/18 Wheeler,DOO,driver and passenger,unk,Y,no DL,DRIVER,no seatbelt/ 1 worn,Other highway,no,-97.687638,30.182873
+Motor Vehicle,67,4,15-2420466,10515 N. Mopac Blvd,AD,08/30/2015,Aug,Sun,4,4:53 AM,MV/FO,DOO,driver and 3 passengers,Y,N,suspended,DRIVER,no seatbelt (passenger)/ 3 worn,High-use roadway,no,-97.732709,30.393224
+Pedestrian,68,1,15-2511796,6500 Blk Manchaca Rd,DA,09/08/2015,Sep,Tues,21,9:02 PM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,High-use roadway,no,-97.805739,30.207217
+Motor Vehicle,69,1,15-2570230,8400 Blk N IH35 NB,ED,09/14/2015,Sep,Mon,5,5:00 AM,MV/18 Wheeler,DOO,driver,Y,N,ok,DRIVER,no seatbelt,IH35,no,-97.694849,30.347241
+Pedestrian,70,1,15-2571607,1500 Blk Howard Ln,ED,09/14/2015,Sep,Mon,20,8:48 PM,MV/Ped,FTYROW to ped,ped,N,N,ok,none,n/a,High-use roadway,no,-97.677,30.427
+Pedestrian,71,1,15-2650424,6600 S IH35 SB,FR,09/22/2015,Sep,Tues,8,8:27 AM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,IH35,no,-97.7706,30.190436
+Motor Vehicle,72,1,15-2660066,E SH 71 WB/ S FM 973,HE,09/23/2015,Sep,Wed,1,1:09 AM,MV/MV,DOO,driver,Y,N,ok,DRIVER,unknown,Other highway,no,-97.63804,30.20259
+Motor Vehicle,73,1,15-2690383,FM 969/Decker Ln,CH,09/26/2015,Sep,Sat,3,3:58 AM,MV/FO,DOO,driver,Y,N,ok,DRIVER,seatbelt worn,High-use roadway,no,-97.637274,30.276794
+Motorcycle,74,1,15-2831615,1200 S IH 35 NB,HE,10/10/2015,Oct,Sat,21,9:47 PM,MV/MC,DOO,motorcyclist,unk,N,no motorcycle license,MC DRIVER,no helmet,IH35,no,-97.734873,30.245924
+Pedestrian,75,1,15-2862019,100 W. Oltorf,DA,10/14/2015,Oct,Wed,0,12:55 AM,MV/Ped,DOO,ped,unk,N,suspended,DRIVER,n/a,Local Street,yes,-97.753554,30.238795
+Motor Vehicle,76,1,15-3041434,6300 Cameron Rd,ID,10/31/2015,Oct,Sat,19,7:33 PM,MV/MV,Intoxication Manslaughter,driver other car,unk,N,no DL,DRIVER,unknown,High-use roadway,no,-97.696726,30.319925
+Motor Vehicle,77,1,15-3070006,9700 blk E Hwy 290 WB Svrd,CH,11/03/2015,Nov,Tues,0,12:04 AM,MV/ROR,DOO,driver,unk,N,ok (but had restriction of s.o over 21 in front with him),DRIVER,no seatbelt,Other highway,no,-97.616094,30.332798
+Motor Vehicle,78,1,15-3100135,8300 E Ben White blvd EB,HE,11/06/2015,Nov,Fri,2,2:09 AM,MV/ROR,DOO,driver,Y,N,ok,DRIVER,no seatbelt,Other highway,no,-97.682474,30.221945
+Motor Vehicle,79,1,15-3130037,9000 blk Research Blvd SB,ID,11/09/2015,Nov,Mon,0,12:21 AM,MV/MV,DOO,driver,N,N,ok (corrected on 10/3/16 per Kunkel),DRIVER,seatbelt worn,Other highway,no,-97.723913,30.371852
+Pedestrian,80,1,15-3120285,Riverside/Willow Creek Dr,HE,11/08/2015,Nov,Sun,3,3:13 AM,MV/Ped,DOO/FTSRA,ped,unk,N,unk (FTSRA),unknown,n/a,High-use roadway,yes,-97.725656,30.23768
+Motor Vehicle,81,1,15-3180188,W Slaughter Ln/Mopac Expry SB,DA,11/14/2015,Nov,Sat,1,1:55 AM,MV/MV,Intoxication Manslaughter,driver other car,Y,Y,suspended,DRIVER,seatbelt worn,High-use roadway,no,-97.866869,30.200995
+Motor Vehicle,82,1,15-3181228,Huntland Dr/Airport Blvd,ID,11/14/2015,Nov,Sat,17,5:03 PM,MV/FO,DOO,driver,N,N,no DL,DRIVER,no seatbelt,High-use roadway,no,-97.715625,30.330386
+Motorcycle,83,1,15-3221644,1700 S. Pleasant Valley,HE,11/18/2015,Nov,Wed,19,7:52 PM,MV/MC,FTYROW to MC,motorcyclist,N,N,no DL,None,no helmet,High-use roadway,No,-97.720636,30.237093
+Pedestrian,84,1,15-3340212,7700 Blk S IH-35 SVRD SB,FR,11/30/2015,Nov,Mon,5,5:23 AM,MV/Ped,DOO,ped,N,N,ok,PED,n/a,IH35,no,-97.778778,30.178904
+Pedestrian,85,1,15-3451563,12800 Pearce Ln,HE,12/11/2015,Dec,Fri,19,7:19 PM,MV/Ped,DOO,ped,N,N,no DL,PED,n/a,Local Street,no,-97.621854,30.168811
+Motor Vehicle,86,1,15-3500173,400 Blk Tillery St,CH,12/16/2015,Dec,Wed,2,2:36 AM,MV/FO/ROR,Intoxication Manslaughter,passenger,Y,N,no DL,DRIVER,no seatbelt,Local Street,no,-97.703816,30.262494
+Pedestrian,87,1,15-3510334,3000 E SH 71 EB,HE,12/17/2015,Dec,Thu,12,12:50 PM,MV/Ped,No Charge,ped,unk,N,ok,PED,n/a,Other highway,no,-97.645918,30.206452
+Bicycle,88,1,15-3560291,10100 Brodie Ln,DA,12/22/2015,Dec,Tues,6,6:31 AM,MV/Bike,DOO,bicyclist,N,N,ok,Bicyclist,no helmet (bike),Local Street,no,-97.851153,30.181508
+Motor Vehicle,89,1,15-2480466,7000 Blk Thannas Way,FR,09/05/2015,Sep,Sat,7,7:14 AM,MV/FO,DOO,driver,Y,N,no DL and suspended ID,DRIVER,no seatbelt,Local Street,no,-97.756444,30.177781
+Motor Vehicle,90,1,15-3640128,1670 Barton Springs RD,DA,12/30/2015,Dec,Wed,3,3:26 AM,MV/FO,DOO,driver,Y,N,Invalid,DRIVER,no seatbelt,Local Street,no,-97.761469,30.261983
+Motor Vehicle,91,1,15-3640244,12000 N IH 35 SVRD NB,ED,12/30/2015,Dec,Wed,5,5:50 AM,MV/ROR,DOO,driver,Y,N,ok,DRIVER,seatbelt worn,IH35,no,-97.672652,30.386102
+Motorcycle,92,1,15-3641425,2700 Blk Steck Ave,BA,12/31/2015,Dec,Thu,1,1:12 AM,MV/MC,DOO,motorcyclist,Y,N,no motorcycle license,DRIVER,helmet,Local Street,no,-97.732617,30.363462
+Motor Vehicle,93,1,15-3601318,9600 S. IH 35 SVRD SB,FR,12/26/2015,Dec,Sat,21,9:06 PM,MV/FO,DOO,driver,Y,N,suspended,NONE,seatbelt worn,IH35,no,-97.789771,30.160294
+Motorcycle,94,1,15-3650652,12100 Hunters Chase Dr,AD,12/31/2015,Dec,Thu,11,11:53 AM,MC/run off road,DOO,motorcyclist,Y,N,no motorcycle license,DRIVER,helmet,local street,no,-97.779062,30.439465

@@ -1,0 +1,8 @@
+Data sources:
+https://data.texas.gov/
+
+2015 Traffic Fatalities REST Endpoint: https://data.austintexas.gov/resource/stdg-i77q.json
+
+2016 Traffic Fatalities REST Endpoint: https://data.austintexas.gov/resource/ytxc-2ukg.json
+
+with open('2015fatalities'

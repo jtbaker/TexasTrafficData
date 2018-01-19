@@ -1,0 +1,78 @@
+TYPE,FATAL CRASH #,# of Fatalities,CASE NUMBER,LOCATION,AREA,Date,Month,Day,Hour,Time,Related,charge(Slater),Killed: driver/pass,Speeding,Ran Red Light or Stop Sign,DL Status,IMPAIRED TYPE,restraint / helmet,TYPE OF ROAD,FTSRA,X COORD,Y COORD
+Pedestrian,1,1,16-0061621,9700 Blk Lake Creek Pkwy,AD,01/06/2016,Jan,Wed,23,11:14 PM,MV/Ped,FTSRA,n/a,N,N,okay,PED  ,n/a,local street,y,-97.793878,30.475234
+Pedestrian,2,1,16-0140992,4800 E. Riverside Dr.,HE,01/14/2016,Jan,Thu,14,2:46 PM,MV/Ped,N/A,n/a,N,N,okay,UNKNOWN,n/a,high use roadway,n,-97.717471,30.231659
+Motor Vehicle,3,1,16-0221932,6300 blk E William Cannon,FR,01/22/2016,Jan,Fri,23,11:29 PM,MV/FO,N/A,driver,Y,N,okay,DRIVER  ,unknown,high use roadway,n,-97.739337,30.170877
+Pedestrian,4,1,16-0301529,12300 N Lamar,ED,01/30/2016,Jan,Sat,20,8:01 PM,MV/Ped,N/A,n/a,N,N,okay,UNKNOWN,n/a,high use roadway,n,-97.679087,30.402741
+Motorcycle,5,1,16-0450263,Burleson Rd / McKinney Falls Pkwy,HE,02/14/2016,Feb,Sun,2,2:22 AM,MV/MC,N/A,motorcyclist,Y,N,okay,DRIVER,no helmet,local street,n,-97.698371,30.191989
+Motor Vehicle,6,1,16-0450294,6800 Cooper Ln,FR,02/14/2016,Feb,Sun,2,2:36 AM,MV/ROR,Intoxication Manslaughter,passenger,Y,N,okay,DRIVER,seatbelts worn,local street,n,-97.791941,30.197194
+Pedestrian,7,1,16-0451375,700 Montopolis,HE,02/14/2016,Feb,Sun,19,7:05 PM,MV/PED,N/A,n/a,N,N,okay,PED,n/a,local street,n,-97.695743,30.236873
+Motorcycle,8,1,16-0490903,N US 183 Hwy Svrd NB/Pecan Park Blvd,AD,02/18/2016,Feb,Thu,13,1:14 PM,MV/MC,Class C,motorcyclist,N,Y,no MC license,NONE,helmet,other highway,n,-97.795248,30.465592
+Pedestrian,9,1,16-0501840,Riverside Dr/Willow Creek,HE,02/19/2016,Feb,Fri,23,11:08 PM,MV/Ped,N/A,n/a,N,N,okay,PED,n/a,high use roadway,n,-97.725656,30.23768
+Motorcycle,10,1,16-0570527,10100 blk FM 2222,AD,02/26/2016,Feb,Fri,9,9:47 AM,MV/MC,N/A,motorcyclist,Y,N,no DL,NONE,helmet,high use roadway,n,-97.826296,30.389103
+Motor Vehicle,11,1,16-0680636,5700 N Mopac Expy Svrd SB,BA,03/08/2016,Mar,Tue,10,10:48 AM,MV/MV,Class C,driver (other),Y,Y,okay,NONE,seatbelts worn,other highway,n,-97.755809,30.337271
+Pedestrian,12,1,16-0710293,1100 Blk N IH35 SVRD NB,CH,03/11/2016,Mar,Fri,5,5:12 AM,MV/PED,N/A,n/a,N,N,okay,NONE,n/a,IH35,n,-97.73227,30.270865
+Motor Vehicle,13,1,16-0760018,1100 W Cesar Chavez St,BA,03/16/2016,Mar,Wed,0,12:07 AM,MV/FO,N/A,Driver,Y,N,okay,DRIVER,seatbelts worn,local street,n,-97.758001,30.267707
+Pedestrian,14,1,16-0782023,1100 S IH35 NB,HE,03/18/2016,Mar,Fri,20,8:47 PM,MV/Ped,N/A,n/a,N,N,unk (changed 10/3/16),NONE,n/a,IH35,y,-97.735195,30.247856
+Motor Vehicle,15,1,16-0891859,5100 blk Ponciana,FR,03/29/2016,Mar,Tue,23,11:59 PM,MV/FO,Intoxication Manslaughter,passenger,Y,N,no DL,DRIVER,no seatbelt,local street,n,-97.754654,30.201896
+Motor Vehicle,16,1,16-0840516,Sunland Dr/Brodie Ln,FR,03/24/2016,Mar,Thu,8,8:58 AM,MV/MV,N/A,Driver,N,Y,okay,NONE,unknown,local street,n,-97.85995,30.158302
+Motorcycle,17,1,16-0921012,15500 Avery Ranch,AD,04/01/2016,Apr,Fri,13,1:29 PM,MC/FO,DOO,motorcyclist,N,N,suspended DL,UNKNOWN (Wm County),no helmet,local street,n,-97.763114,30.500154
+Motorcycle,18,1,16-0981477,1500 Blk Grove Blvd,HE,04/08/2016,Apr,Fri,18,6:46 PM,MV/MC,NA,motorcyclist,Y,N,okay,NONE,helmet,local street,n,-97.705781,30.232566
+Motorcycle,19,1,16-1100803,9900 BLK Lake Creek PKWY,AD,04/19/2016,Apr,Tue,12,12:56 PM,MV/MC,Class C,motorcyclist,N,N,okay,MC DRIVER,helmet,local street,n,-97.789896,30.470218
+Pedestrian,20,1,16-1130332,9200 blk Burnet Rd,AD,04/22/2016,Apr,Fri,6,6:21 AM,MV/Ped,N/A,n/a,N,N,okay,PED,n/a,high use roadway,n,-97.725935,30.375228
+Motorcycle,21,1,16-1141386,1600 blk Royal Crest Dr,HE,04/23/2016,Apr,Sat,18,6:13 PM,MC/FO,N/A,motorcyclist,N,N,okay,MC DRIVER,no helmet (not strapped),local street,n,-97.730194,30.239088
+Pedestrian,22,1,16-1220390,100 N IH 35 NB,GE,05/01/2016,May,Sun,3,3:20 AM,MV/PED,N/A,n/a,N,N,okay,PED,n/a,IH35,n,-97.736223,30.261144
+Motor Vehicle,23,1,16-1272087,3100 Burleson Rd,HE,05/06/2016,May,Fri,23,11:18 PM,MV/FO,N/A,driver,Y,N,no DL,DRIVER,seatbelts worn,local street,n,-97.734101,30.220622
+Pedestrian,24,1,16-1341025,7900 Blk Gault St,ID,05/13/2016,May,Fri,14,2:17 PM,MV/Ped,N/A,n/a,N,N,okay,NONE,n/a,local street,n,-97.718468,30.350354
+Motor Vehicle,25,1,16-1411671,9500 blk Dessau Rd,ED,05/20/2016,May,Fri,20,8:35 PM,MV/MV,N/A,Driver,Y,N,no DL,NONE,no seatbelt,local street,n,-97.675053,30.352273
+Pedestrian,26,1,16-1431145,5900 blk Cameron,ID,05/22/2016,May,Sun,17,5:05 PM,MV/Ped,FTSRA,n/a,N,N,suspended DL,NONE,n/a,local street,n,-97.700158,30.316849
+Pedestrian,27,1,16-1461992,5500 blk N IH-35,ID,05/25/2016,May,Wed,23,11:22 PM,MV/Ped,N/A,n/a,N,N,okay,PED,n/a,IH35,n,-97.709204,30.311291
+Motor Vehicle,28,1,16-1500519,Braker Ln/Burnet Rd,AD,05/29/2016,May,Sun,9,9:05 AM,MV/MV,N/A,passenger,N,Y,okay,NONE,seatbelts worn,local street,n,-97.725626,30.392347
+Motor Vehicle,29,1,16-1540103,11200 Lakeline Mall,AD,06/02/2016,Jun,Thu,3,3:14 AM,MV/FO,N/A,Driver,Y,N,okay,DRIVER,no seatbelt,local street,n,-97.803406,30.471766
+Pedestrian,30,1,16-1591804,Spicewood Springs/Rustic Rock,AD,06/07/2016,Jun,Tue,22,10:14 PM,MV/PED,None,n/a,N,N,okay,NONE,n/a,local street,n,-97.781239,30.430139
+Motor Vehicle,31,1,16-1640183,2400 S IH35 NB,HE,06/12/2016,Jun,Sun,3,3:32 AM,MV/MV,Intoxication Manslaughter,driver (other),Y,N,suspended DL,DRIVER,seatbelt worn,other highway,n,-97.741923,30.232282
+Pedestrian,32,1,16-1851779,8007 Burnet Rd,ID,07/03/2016,Jul,Sun,22,10:30 PM,MV/Ped,N/A,n/a,n,n,okay,PED,n/a,local street,n,-97.730598,30.357174
+Motor Vehicle,33,1,16-1881009,EB HWY 290 Frontage at Decker Ln.,CH,07/06/2016,Jul,Wed,15,3:16 PM,MV/MV,N/A,driver,Y,Y,okay,NONE,seatbelts worn,other highway,n,-97.607401,30.334455
+Pedestrian,34,1,16-1910390,E PARMER LN / HARRISGLENN DR,ED,07/09/2016,Jul,Sat,5,5:49 AM,MV/Ped,N/A,n/a,n,n,okay,NONE,n/a,high use roadway,n,-97.654923,30.399548
+Motor Vehicle,35,1,16-1920479,8300 Mesa Dr,BA,07/10/2016,Jul,Sun,6,6:40 AM,MV/FO,N/A,driver,Y,Y,okay,DRIVER,seatbelts worn,local street,n,-97.755432,30.374391
+Motor Vehicle,36,1,16-2021185,3300 SH 130 S,HE,07/20/2016,Jul,Wed,17,5:09 PM,MV/ROR,N/A,driver,N,N,okay,NONE,seatbelt worn,other highway,n,-97.622248,30.20151
+Motor Vehicle,37,1,16-2060277,500 S Mopac SB,DA,07/24/2016,Jul,Sun,2,2:30 AM,MV/FO,N/A,driver,N,N,okay,DRIVER,no seatbelt ,other highway,n,-97.775075,30.269929
+Motor Vehicle,38,1,16-2041963,5600 W Parmer Ln,AD,07/23/2016,Jul,Sat,23,11:32 PM,MV/MV,None,child passenger,N,Y,okay,NONE,seatbelt worn,high use roadway,n,-97.736062,30.437194
+Bicycle,39,1,16-1921728,Bluff Springs/Chateau Village Way,FR,07/10/2016,Jul,Sun,23,11:40 PM,MV/Bike,FTSRA,n/a,N,N,okay,NONE,no helmet,local street,y,-97.768808,30.173442
+Motor Vehicle,40,1,16-2221218,400 FM 1327,FR,08/09/2016,Aug,Tue,16,4:21 PM,MV/MV,N/A,driver,N,N,okay,DRIVER,seatbelt worn,local street,n,-97.792588,30.113096
+Pedestrian,41,1,16-2260245,40 S IH35 NB,GE,08/13/2016,Aug,Sat,2,2:07 AM,MV/Ped,N/A,n/a,N,N,okay,PED,n/a,IH35,n,-97.736646,30.254833
+Motor Vehicle,42,1,16-2321719,3300 blk S IH35 NB Svrd,HE,08/19/2016,Aug,Fri,20,8:24 PM,MV/FO,N/A,driver,Y,N,okay,DRIVER,seatbelt worn,IH35,n,-97.746502,30.224041
+Motor Vehicle,43,1,16-2330343,15000 Blk N IH35 SVRD SB,ED,08/20/2016,Aug,Sat,3,3:50 AM,MV/FO,Intoxication Manslaughter,passenger,N,N,okay,DRIVER,no seatbelt,IH35,n,-97.668397,30.443217
+Pedestrian,44,1,16-2331844,Wm Cannon/Bill Hughes Rd,FR,08/20/2016,Aug,Sat,23,11:07 PM,MV/Ped,FTSRA,n/a,N,N,no DL,NONE,n/a,high use roadway,y,-97.785079,30.195639
+Motor Vehicle,45,1,16-2360858,2400 Blk of W. Anderson Ln,BA,08/23/2016,Aug,Tue,13,1:05 PM,MV/MV,Class C,passenger,N,N,okay,NONE,seatbelts worn,local street,n,-97.731357,30.356425
+Motorcycle,46,1,16-2431548,10800 N Mopac,AD,08/30/2016,Aug,Tue,20,8:30 PM,MV/MC,Class C,mc driver,Y,N,okay,NONE,helmet,other highway,n,-97.716751,30.408162
+Motorcycle,47,1,16-2450740,8300 blk Burnet Rd,BA,09/01/2016,Sep,Thu,11,11:14 AM,MV/MC,Class C,mc driver,N,N,suspended DL,NONE,helmet,local street,n,-97.729061,30.362911
+Motor Vehicle,48,2,16-2540406,2610 N. Capital of Texas Hwy,BA,09/10/2016,Sep,Sat,6,6:24 AM,MV/MV,N/A,both drivers,N,N,okay,"SUSPECTED (no tox, but count as impaired)",seatbelts worn,other highway,n,-97.813137,30.324214
+Motor Vehicle,49,1,16-2541081,8900 N. FM 620/Boulder Ln,AD,09/10/2016,Sep,Sat,17,5:57 PM,MV/MV,N/A,driver,N,N,okay,NONE,seatbelts worn,other highway,n,-97.84266,30.428784
+Pedestrian,50,1,16-2621675,South 1st/St Elmo,DA,09/18/2016,Sep,Sun,21,9:55 PM,MV/Ped,N/A,n/a,N,N,okay,PED,n/a,local street,n,-97.772877,30.221043
+Motorcycle,51,1,16-2631318,6800 Blk Southwest Pkwy,DA,09/19/2016,Sep,Mon,17,5:45 PM,MV/MC,Class C,mc driver,N,N,okay,DRIVER (deceased),helmet,high use roadway,n,-97.860751,30.252162
+Motorcycle,52,1,16-2720145,5000 N Mopac Expy SB,BA,09/28/2016,Sep,Wed,2,2:15 AM,MV/MC,N/A,mc driver,Y,N,no DL,MC DRIVER,no helmet,other highway,n,-97.755944,30.328111
+Motor Vehicle,53,1,16-2760037,7500 blk Cameron Rd,ID,10/02/2016,Oct,Sun,0,12:19 AM,MV/FO,N/A,driver,Y,N,no DL,DRIVER,seatbelt worn,local street,n,-97.689117,30.330145
+Motor Vehicle,54,1,16-2861999,6700 blk Metropolis,HE,10/12/2016,Oct,Wed,23,11:53 PM,MV/FO,N/A,driver,Y,N,suspended DL,DRIVER,no seatbelt,local street,n,-97.709194,30.203042
+Motor Vehicle,55,1,16-2890341,5700 blk S Mopac NB,DA,10/15/2016,Oct,Sat,3,3:27 AM,MV/FO,N/A,driver,Y,N,okay,DRIVER,no seatbelt,other highway,n,-97.830063,30.22721
+Motor Vehicle,56,1,16-2870420,W US 290 EB to S Mopac,DA,10/13/2016,Oct,Thu,8,8:39 AM,MV/MV,Pending,driver,N,N,okay,NONE,seatbelts worn,other highway,n,-97.831159,30.236357
+Motor Vehicle,57,1,16-2930162,2500 blk S IH35 SB,DA,10/19/2016,Oct,Wed,2,2:25 AM,MV/FO,N/A,driver,Y,N,okay,DRIVER,no seatbelt,IH35,n,-97.741652,30.23385
+Motor Vehicle,58,1,16-3000186,1400 W Koenig Ln,ID,10/26/2016,Oct,Wed,3,3:20 AM,MV/MV,Class C,driver,unk,N,okay,DRIVER,seatbelt worn,local street,n,-97.731593,30.330871
+Motor Vehicle,59,1,16-3000728,10000 Manchaca Rd,FR,10/26/2016,Oct,Wed,12,12:07 PM,MV/MV,DOO,driver,N,N,okay,DRIVER,no seatbelt,high use roadway,n,-97.824728,30.172108
+Bicycle,60,1,16-3100481,5200 W US 290 HWY EB,DA,11/05/2016,Nov,Sat,7,7:20 AM,MV/Bike,FTSRA and Class A,n/a,N,N,invalid,NONE,no helmet,other highway,y,-97.832441,30.236119
+Pedestrian,61,1,16-3131560,8900 N LAMAR BLVD ,ED,11/08/2016,Nov,Mon,6,6:57 PM,MV/Ped,N/A,n/a,N,N,okay,PED,n/a,high use roadway,n,-97.700108,30.357647
+Motorcycle,62,1,16-3161707,13700 S IH 35 SVRD SB,FR,11/11/2016,Nov,Fri,8,8:21 PM,MC/other,N/A,mc driver,N,N,okay,DRIVER,helmet,IH35,n,-97.811354,30.104064
+Pedestrian,63,1,16-3210249,5300 N IH 35 SB,ID,11/16/2016,Nov,Wed,5,5:50 AM,MV/Ped,N/A,n/a,N,N,invalid (veh 1),PED,n/a,IH35,n,-97.70943,30.311346
+Pedestrian,64,1,16-3111517,800 Wagon Trail,ED,11/06/2016,Nov,Sun,8,8:34 PM,MV/Ped,N/A,n/a,N,N,okay,NONE,n/a,local street,n,-97.688996,30.377419
+Motor Vehicle,65,2,16-3271364,10000 E US 290 Hwy SVRD EB,CH,11/22/2016,Nov,Tue,19,7:31 PM,MV/MV,N/A,driver & passenger,N,N,suspended DL,DRIVER (pending),seatbelts worn,other highway,n,-97.594177,30.338692
+Pedestrian,66,1,16-3280195,10700 blk IH35 NB ,FR,11/23/2016,Nov,Wed,3,3:34 AM,MV/Ped,N/A,n/a,N,N,okay and unknown,PED (pending),n/a,IH35,y,-97.793833,30.145808
+Motorcycle,67,1,16-3161617,1300 Lockhart Hwy (Bastrop NB to Ben White WB),HE,11/11/2016,Nov,Fri,21,9:44 PM,MC/Other,N/A,driver,N,N,no MC license,DRIVER, no helmet,other highway,n,-97.682105,30.223902
+Pedestrian,68,1,16-3290999,6800 N IH35 SB,ID,11/24/2016,Nov,Thu,18,6:37 PM,MV/Ped,N/A,n/a,N,N,okay,PED (pending),n/a,IH35,n,-97.705601,30.329808
+Motor Vehicle,69,1,16-3301094,7000 N Lamar Blvd,ID,11/25/2016,Nov,Fri,19,7:47 PM,MV/FO,N/A,driver,Y,N,okay,DRIVER (pending),seatbelt worn,high use roadway,n,-97.718872,30.33763
+Pedestrian,70,1,16-3341248,3300 blk Manor Rd,BA,11/29/2016,Nov,Tue,21,9:13 PM,MV/Ped,N/A,n/a,N,N,okay,NONE,n/a,local street,n,-97.702597,30.286928
+Pedestrian,71,1,16-3340717,2200 S IH35 NB,HE,11/29/2016,Nov,Tue,14,2:15 PM,MV/Ped,N/A,n/a,N,N,okay,DRIVER,n/a,IH35,n,-97.740043,30.235451
+Motor Vehicle,72,1,16-3420429,E Hwy 71 WB/S SH130 Svrd SB,HE,12/07/2016,Dec,Wed,8,8:22 AM,MV/MV,Class C,driver,Y,Y,okay,NONE,seatbelt worn,other highway,n,-97.624398,30.195326
+Motor Vehicle,73,1,16-3530419,8700 blk W SH71,DA,12/18/2016,Dec,Sun,3,3:38 AM,MV/FO,Pending,passenger,pending,N,okay,NONE,no seatbelt,other highway,y,-97.895974,30.250702
+Motor Vehicle,74,1,16-3560215,300 W Ben White,DA,12/21/2016,Dec,Wed,5,5:47 AM,MV/FO,N/A,driver,N,N,okay,DRIVER,no seatbelt,other highway,n,-97.766961,30.224881
+Pedestrian,75,1,16-3561018,Congress Ave/Little Texas Ln,FR,12/21/2016,Dec,Wed,16,4:13 PM,MV/Ped,Class C,n/a,N,N,okay,NONE,n/a,high use roadway,n,-97.775528,30.202493
+Pedestrian,76,1,16-3581664,1400 S Capital of Tx Hwy NB,DA,12/23/2016,Dec,Fri,22,10:10 PM,MV/Ped,N/A,n/a,N,N,okay,PED,n/a,other highway,n,-97.819543,30.277537
+Pedestrian,77,1,16-3301144,Congress Ave/Sheraton Ave,DA,11/25/2016,Nov,Fri,17,5:58 PM,MV/Ped,FTSRA,n/a,N,N,okay,"PED (no tox done, see notes on victim)",n/a,high use roadway,y,-97.768774,30.215157

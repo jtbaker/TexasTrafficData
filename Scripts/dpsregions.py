@@ -1,7 +1,9 @@
 import folium
+from folium.features import DivIcon
 import pandas as pd
 import geopandas as gpd
 import fiona
+from folium.features import DivIcon
 from branca.utilities import split_six
 
 # DPS Regions dictionary. Values copied and pasted from the bottom portion of each region's public facing web page on https://www.dps.texas.gov/
@@ -26,7 +28,7 @@ for region in dpsregions:
 dps_regions_list = [item for key in dpsregions for item in dpsregions[key]]
 
 # Reading in some census data
-census_data = pd.read_excel('Dtl2010hcat.xls')
+census_data = pd.read_excel('../data/Dtl2010hcat.xls')
 
 # Cleaning up the data (syntax)
 census_data = census_data[['Area','Total']].loc[(census_data['AgeGroup'] == "'ALL'") & (census_data['Area'] != 'Texas')]
@@ -35,7 +37,7 @@ census_data['NAME'].loc[census_data['NAME'] == 'DE WITT'] = 'DEWITT'
 census_data['NAME'] = census_data['NAME'].str.upper()
 
 # Reading in a county shapefile layer, cutting it down, and cleaning it up.
-counties = gpd.read_file('tl_2011_us_county/tl_2011_us_county.shp')
+counties = gpd.read_file('../tl_2011_us_county/tl_2011_us_county.shp')
 counties = counties.loc[counties['STATEFP']=='48']
 counties['NAME'] = counties['NAME'].str.upper()
 
@@ -88,11 +90,11 @@ def get_counties_from_field(value, field):
 fg = folium.FeatureGroup(name="Texas DPS Region Population Details")
 fg.layer_name = 'Texas DPS Region Population Details'
 for name, geo, pop in zip(regions['DPSRegion'],regions.geometry, regions['Total Population']):
-    folium.Marker([geo.centroid.y, geo.centroid.x], icon=folium.Icon(color='black'),
-                  popup=f"{'<br>'.join(['Texas '+name, 'Total Population: '+'''{:3,.0f}'''.format(pop)])}"+'<br>'+
-                        f"Includes the following Counties, highest to lowest population:<br>{get_counties_from_field(name, 'DPSRegion')}"
-                  ).add_to(fg)
-
+    folium.map.Marker([geo.centroid.y, geo.centroid.x],
+                      popup=f"{'<br>'.join(['<b>Texas '+name+'</b>', 'Total Population: '+'''{:3,.0f}'''.format(pop)])}" + '<br>' +
+                            f"Includes the following Counties, highest to lowest population:<br>{get_counties_from_field(name, 'DPSRegion')}",
+                      icon=DivIcon(icon_size=(50,150), icon_anchor=(30,0), popup_anchor=(50,0), html=f'<div style="font-size:14pt; font-family:helvetica neue; text-align:center"><b>{name}</b></div>'),
+                      ).add_to(fg)
 
 # Another feature group for the major MSAs
 pop_centers = folium.FeatureGroup(name='Texas Population Centers')
@@ -123,7 +125,7 @@ folium.GeoJson(CBSAFP,
 
 # Detail point layer for the MSAs
 for geo, cbs, pop in zip(CBSAFP.geometry, CBSAFP.CBSAFP, CBSAFP['Total Population']):
-    folium.Marker([geo.centroid.y, geo.centroid.x], icon=folium.Icon(color='white', icon_color='black'),
+    folium.Marker([geo.centroid.y, geo.centroid.x], icon=folium.Icon(color='black', icon_color='white'),
                   popup=f"{'<br>'.join([msa_dict[str(cbs)], 'Total Population: ''''{:3,.0f}'''.format(pop)])}"+'<br>'+
                         f"Includes the following Counties, highest to lowest population:<br>{get_counties_from_field(cbs, 'CBSAFP')}"
                   ).add_to(pop_centers)

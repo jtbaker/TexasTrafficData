@@ -31,7 +31,7 @@ to visualize the extent of the boundaries of these areas, and understand the pop
 The population of each DPS Region is rendered with a graduated color map, and details can be viewed by clicking on the 
 popup markers.</p> 
 <br>
-<p>This map can be viewed at <a href='http://jtbaker.me/DPSRegions.html'>http://jtbaker.me/DPSRegions.html</a></p>
+<p>This map can be viewed at <a href='http://jtbaker.me/TexasDPSRegions.html'>http://jtbaker.me/TexasDPSRegions.html</a></p>
 <br>
 <h4>Statewide Traffic</h4>
 <p><code>statewidetraffic.py</code> ingests the same county census dataset, merges it with both the county shapefile layer,

@@ -37,7 +37,7 @@ census_data['NAME'].loc[census_data['NAME'] == 'DE WITT'] = 'DEWITT'
 census_data['NAME'] = census_data['NAME'].str.upper()
 
 # Reading in a county shapefile layer, cutting it down, and cleaning it up.
-counties = gpd.read_file('../tl_2011_us_county/tl_2011_us_county.shp')
+counties = gpd.read_file('../data/tl_2011_us_county/tl_2011_us_county.shp')
 counties = counties.loc[counties['STATEFP']=='48']
 counties['NAME'] = counties['NAME'].str.upper()
 
@@ -90,14 +90,14 @@ def get_counties_from_field(value, field):
 fg = folium.FeatureGroup(name="Texas DPS Region Population Details")
 fg.layer_name = 'Texas DPS Region Population Details'
 for name, geo, pop in zip(regions['DPSRegion'],regions.geometry, regions['Total Population']):
-    folium.map.Marker([geo.centroid.y, geo.centroid.x],
+    folium.map.Marker([geo.centroid.y+.08, geo.centroid.x-.22],
                       popup=f"{'<br>'.join(['<b>Texas '+name+'</b>', 'Total Population: '+'''{:3,.0f}'''.format(pop)])}" + '<br>' +
                             f"Includes the following Counties, highest to lowest population:<br>{get_counties_from_field(name, 'DPSRegion')}",
                       icon=DivIcon(icon_size=(50,150), icon_anchor=(30,0), popup_anchor=(50,0), html=f'<div style="font-size:14pt; font-family:helvetica neue; text-align:center"><b>{name}</b></div>'),
                       ).add_to(fg)
 
 # Another feature group for the major MSAs
-pop_centers = folium.FeatureGroup(name='Texas Population Centers')
+pop_centers = folium.FeatureGroup(name='Texas Metropolitan Areas')
 
 # Prepping the geodataframe for projection
 CBSAFP.crs = fiona.crs.from_epsg(4326)
@@ -125,8 +125,8 @@ folium.GeoJson(CBSAFP,
 
 # Detail point layer for the MSAs
 for geo, cbs, pop in zip(CBSAFP.geometry, CBSAFP.CBSAFP, CBSAFP['Total Population']):
-    folium.Marker([geo.centroid.y, geo.centroid.x], icon=folium.Icon(color='white', icon_color='black'),
-                  popup=f"{'<br>'.join([msa_dict[str(cbs)], 'Total Population: ''''{:3,.0f}'''.format(pop)])}"+'<br>'+
+    folium.Marker([geo.centroid.y, geo.centroid.x], icon=folium.Icon(color='black'),
+                  popup=f"{'<br>'.join(['<b>'+msa_dict[str(cbs)]+'</b>', 'Total Population: ' + '''{:3,.0f}'''.format(pop)])}"+'<br>'+
                         f"Includes the following Counties, highest to lowest population:<br>{get_counties_from_field(cbs, 'CBSAFP')}"
                   ).add_to(pop_centers)
 
@@ -139,4 +139,4 @@ pop_centers.add_to(regionsmap)
 folium.LayerControl().add_to(regionsmap)
 
 # Saving the map to an HTML file.
-regionsmap.save('TexasDPSRegions.html')
+regionsmap.save('../sites/TexasDPSRegions.html')

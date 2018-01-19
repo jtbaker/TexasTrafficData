@@ -6,11 +6,11 @@ from folium import GeoJson
 from shapely.geometry import Point
 
 # Reading our Fatality Data csv's from the Austin Open Data Portal into some pandas Dataframes.
-f_2015 = pd.read_csv('2015_APD_Traffic_Fatalities.csv')
-f_2016 = pd.read_csv('2016_APD_Traffic_Fatalities.csv')
+f_2015 = pd.read_csv('../data/2015_APD_Traffic_Fatalities.csv')
+f_2016 = pd.read_csv('../data/2016_APD_Traffic_Fatalities.csv')
 
 # Getting Austin local zip codes, to winnow down our Census Tract data on later by running a spatial join.
-zippath='zipcodes/geo_export_f636f682-5b8a-41eb-9ec4-cfb9f60bfdf2.shp'
+zippath='../data/zipcodes/geo_export_f636f682-5b8a-41eb-9ec4-cfb9f60bfdf2.shp'
 zips = gpd.GeoDataFrame.from_file(zippath)
 zips.geometry = zips['geometry']
 zips = zips.loc[zips['name'].isin(['TRAVIS','AUSTIN','PFLUGERVILLE','DEL VALLE',
@@ -19,7 +19,7 @@ zips = zips.loc[zips['name'].isin(['TRAVIS','AUSTIN','PFLUGERVILLE','DEL VALLE',
 zips.crs = fiona.crs.from_epsg(4326)
 
 # Opening the Texas census tract layer from the directory the zip file created.
-census_tracts = gpd.read_file('tl_2017_48_tract/tl_2017_48_tract.shp')
+census_tracts = gpd.read_file('../data/tl_2017_48_tract/tl_2017_48_tract.shp')
 census_tracts.crs = fiona.crs.from_epsg(4326)
 # Spatial Join to access only the local census tracts.
 census_tracts = gpd.tools.sjoin(zips, census_tracts, how='left', op='within')
@@ -121,7 +121,7 @@ def add_layers(dictobject):
                 # Adding a marker with the details for each polygon.
                 folium.Marker([geo.centroid.y, geo.centroid.x],
                               popup=f"{pts} {'fatalities' if pts != 1 else 'fatality'} in this tract during {geodataframe[:4]}",
-                              icon=folium.Icon(icon='bookmark', color='green')
+                              icon=folium.Icon(icon='bookmark', color='darkblue')
                 ).add_to(fg)
         map.add_child(fg, name=geodataframe)
 
@@ -129,4 +129,4 @@ def add_layers(dictobject):
 add_layers(ctracts)
 add_layers(sub_cats)
 folium.LayerControl(autoZIndex=True).add_to(map)
-map.save('austinfatalities.html')
+map.save('../sites/austinfatalities.html')

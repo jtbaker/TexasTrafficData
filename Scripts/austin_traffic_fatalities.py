@@ -5,7 +5,7 @@ import folium
 from folium import GeoJson
 from shapely.geometry import Point
 
-# Reading our Fatality Data JSON's from the Austin Open Data Portal REST Endpoints into some pandas Dataframes.
+# Reading our Fatality Data JSON's from the Austin Open Data Portal REST Endpoints into some pandas DataFrames.
 f_2015 = pd.read_json('https://data.austintexas.gov/resource/stdg-i77q.json')
 f_2016 = pd.read_json('https://data.austintexas.gov/resource/ytxc-2ukg.json')
 
@@ -49,8 +49,8 @@ No_Seatbelts = gdf.loc[gdf['restraint_helmet'].str.contains('no seatbelt', case=
 Invalid_DL = gdf.loc[gdf['dl_status'] != 'ok']
 Ran_Red = gdf.loc[gdf['ran_red_light'] == 'Y']
 Speeding = gdf.loc[gdf['speeding'] == 'Y']
-Daytime = gdf.loc[(gdf.hour >= 6) & (gdf.hour <= 7)]
-Nighttime = gdf.loc[(gdf.hour < 6) | (gdf.hour > 7)]
+Daytime = gdf.loc[(gdf.hour >= 6) & (gdf.hour < 19)]
+Nighttime = gdf.loc[(gdf.hour < 6) | (gdf.hour >= 19)]
 
 sub_cats = {'2015 Incidents':{'data':Incidents2015, 'color':'blue'},
             '2016 Incidents':{'data':Incidents2016, 'color':'red'},

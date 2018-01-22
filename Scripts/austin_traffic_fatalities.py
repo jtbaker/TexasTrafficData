@@ -5,9 +5,9 @@ import folium
 from folium import GeoJson
 from shapely.geometry import Point
 
-# Reading our Fatality Data csv's from the Austin Open Data Portal into some pandas Dataframes.
-f_2015 = pd.read_csv('../data/2015_APD_Traffic_Fatalities.csv')
-f_2016 = pd.read_csv('../data/2016_APD_Traffic_Fatalities.csv')
+# Reading our Fatality Data JSON's from the Austin Open Data Portal REST Endpoints into some pandas Dataframes.
+f_2015 = pd.read_json('https://data.austintexas.gov/resource/stdg-i77q.json')
+f_2016 = pd.read_json('https://data.austintexas.gov/resource/ytxc-2ukg.json')
 
 # Getting Austin local zip codes, to winnow down our Census Tract data on later by running a spatial join.
 zippath='../data/zipcodes/geo_export_f636f682-5b8a-41eb-9ec4-cfb9f60bfdf2.shp'
@@ -27,33 +27,30 @@ census_tracts = gpd.tools.sjoin(zips, census_tracts, how='left', op='within')
 gdf1 = gpd.GeoDataFrame(f_2015)
 gdf2 = gpd.GeoDataFrame(f_2016)
 # Cleansing the data so we have the same key values to work with.
-gdf2 = gdf2.rename({'Ran Red Light or Stop Sign':'Ran Red Light','charge_slater': 'charge','restraint / helmet':'restraint'},axis='columns')
+gdf2 = gdf2.rename({'ran_red_light_or_stop_sign':'ran_red_light','charge_slater': 'charge'},axis='columns')
 
 # Appending our initial dataframe to the 2nd one, after matching the key values to each other.
 gdf = gdf2.append(gdf1)
-# Time conversion..
-# gdf['datetime'] = pd.to_datetime(gdf['Time'])
-# Adding our values to a
 
-gdf['X COORD'], gdf['Y COORD'] = pd.to_numeric(gdf['X COORD']), pd.to_numeric(gdf['Y COORD'])
-geometry = [Point(xy) for xy in zip(gdf['X COORD'], gdf['Y COORD'])]
+gdf['x_coord'], gdf['y_coord'] = pd.to_numeric(gdf['x_coord']), pd.to_numeric(gdf['y_coord'])
+geometry = [Point(xy) for xy in zip(gdf['x_coord'], gdf['y_coord'])]
 # Setting geometry
 gdf['geometry'] = geometry
 gdf.crs = fiona.crs.from_epsg(4326)
 
 # Adding a pandas timestamped field for easy searchability
-gdf['datetime'] = pd.to_datetime(gdf['Date']+' '+gdf['Time'])
+gdf['datetime'] = pd.to_datetime(gdf['date'])
 
 
 Incidents2016 = gdf.loc[gdf['datetime']>='2016-01-01']
 Incidents2015 = gdf.loc[gdf['datetime']<='2015-12-31']
 Assaults = gdf.loc[(gdf['charge'].str.contains('agg', case=False, na=False)) | (gdf['charge'].str.contains('manslaughter',case=False, na=False)) | (gdf['charge'].str.contains('homicide', case=False, na=False))]
-No_Seatbelts = gdf.loc[gdf['restraint'].str.contains('no seatbelt', case=False, na = False)]
-Invalid_DL = gdf.loc[gdf['DL Status'] != 'ok']
-Ran_Red = gdf.loc[gdf['Ran Red Light'] == 'Y']
-Speeding = gdf.loc[gdf['Speeding'] == 'Y']
-Daytime = gdf.loc[(gdf.Hour >= 6) & (gdf.Hour <= 7)]
-Nighttime = gdf.loc[(gdf.Hour < 6) | (gdf.Hour > 7)]
+No_Seatbelts = gdf.loc[gdf['restraint_helmet'].str.contains('no seatbelt', case=False, na = False)]
+Invalid_DL = gdf.loc[gdf['dl_status'] != 'ok']
+Ran_Red = gdf.loc[gdf['ran_red_light'] == 'Y']
+Speeding = gdf.loc[gdf['speeding'] == 'Y']
+Daytime = gdf.loc[(gdf.hour >= 6) & (gdf.hour <= 7)]
+Nighttime = gdf.loc[(gdf.hour < 6) | (gdf.hour > 7)]
 
 sub_cats = {'2015 Incidents':{'data':Incidents2015, 'color':'blue'},
             '2016 Incidents':{'data':Incidents2016, 'color':'red'},
@@ -62,8 +59,8 @@ sub_cats = {'2015 Incidents':{'data':Incidents2015, 'color':'blue'},
             'Invalid DL':{'data':Invalid_DL,'color':'blue'},
             "Ran Red Light":{'data':Ran_Red,'color':'red'},
             "Speeding":{'data':Speeding,'color':'orange'},
-            'Daytime':{'data': Daytime,'color': 'orange'},
-            'Nighttime':{'data':Nighttime,'color':'black'}}
+            'Daytime: between 6AM and 7PM':{'data': Daytime,'color': 'orange'},
+            'Nighttime: before 6AM, or after 7PM':{'data':Nighttime,'color':'black'}}
 
 # Making copies of our census tract geodataframe.
 fts15, fts16 = census_tracts.copy(), census_tracts.copy()
@@ -83,7 +80,7 @@ deltas = {'2015-2016 Traffic Fatality changes':census_tracts}
 map = folium.Map(location=[30.2747,-97.7407], tiles='Stamen Toner', zoom_start=11,)
 
 # Color pallette dictionary with RGB values to assign colors, based on quantity.
-color_dict = {'0':'#00000000','1':'#EBB5B9','2':'#EB8A8A','3':"#EB5E5C",'4':'#EB3735','5':'#EB1F1C','6':"#EA0707",
+color_dict = {'0':'#FAFAFA','1':'#EBB5B9','2':'#EB8A8A','3':"#EB5E5C",'4':'#EB3735','5':'#EB1F1C','6':"#EA0707",
               '7':'#BE003A','8':"#AA0034",'9':"#810029",'10':"#55001D",'11':"#55001D",'12':"#55001D",'13':"#55001D",
               '14':"#55001D"}
 
@@ -97,11 +94,11 @@ def add_layers(dictobject):
         fg.layer_name = geodataframe
         try:
             data = local['data']
-            for x,y,charge,time,date in zip(data['X COORD'], data['Y COORD'], data['charge'], data['Time'], data['Date']):
+            for x,y,charge,time,date in zip(data['x_coord'], data['y_coord'], data['charge'], data['time'], data['date']):
                 folium.Marker([y,x], popup=f"Category: {geodataframe}<br>Charge: {charge}<br>Date: {pd.to_datetime(date).strftime('''%b %d, %Y''')}"+'<br>'+'Time: '+time, icon=folium.Icon(color=local['color'])).add_to(fg)
         # Handling non-point objects(our census tract polygon layers), and adding them to the feature group (fg).
         except KeyError:
-            GeoJson(local,
+            GeoJson(local, overlay=True,
                     highlight_function=lambda feature: {'weight': 3,
                                                           'fillOpacity': 0.8,
                                                           'fillColor':color_dict[str(feature['properties']['NUMPOINTS'])],

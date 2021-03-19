@@ -13,7 +13,7 @@ Fiona==1.7.11
 folium==0.5.0
 geopandas==0.3.0
 idna==2.6
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.0
 matplotlib==2.1.1
 mplleaflet==0.0.5

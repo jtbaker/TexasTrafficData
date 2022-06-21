@@ -19,7 +19,7 @@ matplotlib==2.1.1
 mplleaflet==0.0.5
 munch==2.2.0
 networkx==2.0
-numpy==1.13.3
+numpy==1.22.0
 osmnx==0.6
 pandas==0.22.0
 pyparsing==2.2.0
